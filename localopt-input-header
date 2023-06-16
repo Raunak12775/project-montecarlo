@@ -1,0 +1,28 @@
+# Block of putting the magnitude of the magnetic field, replace B with number
+complex
+ physical_b -B
+end
+
+# SCF Block 
+dft
+ xc hf
+ k 9
+ econv 1.e-6
+ gopt 1
+end
+
+# Optimizer Block
+geoopt
+ tol 1.e-5
+ # experience telling give a higher number of iterations 
+ maxiter 1000
+end
+
+# Geometry Block
+geometry
+ unit # choice of unit 
+ no_orient 1
+ #####
+ ### coordinates of the molecule
+ #####
+end
