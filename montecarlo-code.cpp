@@ -1,3 +1,5 @@
+// Metropolis-Hastings Algorithm - Simulated Annealing
+
 #include <iostream>
 #include <fstream>
 #include <vector>
@@ -9,7 +11,6 @@
 #include <utility>
 #include <string>
 #include <random>
-
 
 using namespace std;
 using namespace Eigen;
