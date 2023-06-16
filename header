@@ -1,0 +1,19 @@
+complex
+ physical_b -2.0
+end
+
+dft
+ xc hf
+ k 9
+ econv 1.e-6
+ gopt 1
+end
+
+geoopt
+ tol 1.e-5
+ maxiter 1000
+end
+
+geometry
+ no_orient 1
+
