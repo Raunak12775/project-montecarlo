@@ -1,0 +1,15 @@
+---
+title: Information about the results
+author: R. Farhaz
+---
+
+## He3
+
+The results here are from magnetic field values ranging from 0.5 au to 5.0 au. Our target is to obtain results upto 8.0 au. Which is under process
+
+## He2
+
+The results of He2 are ready from 0.5 au to 8.0 au. I will upload it soon.
+
+
+
