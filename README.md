@@ -15,8 +15,3 @@ We try to find $He_3$ and $He_2$ structures in strong magnetic field by sampling
 - `codes` : consists of all the source codes and scripts used for the projects
 - `reports` : consists of all the reports in `excel sheets` and `plots` and `quarto notes` 
 - `outputs` : contains all the raw data and output files from madness calculations
-- `paper` : writing for publication (for future use)  
-
-## Theory 
-
-Coming soon . . .
