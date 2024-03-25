@@ -1,4 +1,4 @@
-
+# gitignore
 paper/indent.log
 paper/main.aux
 paper/main.bbl
@@ -10,3 +10,4 @@ paper/main.synctex.gz
 paper/mainNotes.bib
 paper/man.bbl
 paper/man.blg
+paper/main.blg
