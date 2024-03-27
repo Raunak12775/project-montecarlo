@@ -1,7 +1,8 @@
 \section{Methods}
 
 \subsection{Multiresolution Analysis}
-Solving time independent Schr\"odinger equation for electronic structure theory using atom-centred basis sets lead to complications and sometimes unsatisfactory results in field inclusive environments.  
-And in the environments with extreme magnetic it is very vital to check the quality of the 
+Solving time independent Schr\"odinger equation for electronic structure theory with Linear Combination of Atomic Orbitals (LCAO) using atom-centred basis sets lead to complications and sometimes unsatisfactory results in field inclusive environments. In recent days, compututation with grid based techniques are gaining traction. One of them notable is Multiresolution analysis (MRA)\cite{bischoffComputingAccurateMolecular2019}. MRA uses polynomials to expand the wavefunction instead of conventional basis functions. This leads to a major benefit getting rid of gauge origin corrections and simplifies the process of setting up a calculations mathematically. Besides that it has edge over the LCAO on various different topics like basis set superposition error, basis set incompleteness error and redesigning of basis functions for field inclusive calculations. In case of extreme magnetic field, an unrestricted Hartree-Fock code which is present as znemo module of MADNESS code\cite{harrisonMADNESSMultiresolutionAdaptive2016, MadnessMadness2024} base is used here to calculate electronic energies.  
+
 \subsection{Metropolis Algorithm}
+Global optimization which is synonymous to geometry optimization for molecules in Computational Chemistry is a research still under development. Monte Carlo algorithm is one of the most sought algorithms for this purpose among many in optimization algorithms. Here, a modified version of metropolis algorithm is chosen to  sample the conformer space for \ce{He2} and \ce{He3}. The algorithm goes like this:
 
